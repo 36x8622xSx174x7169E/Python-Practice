@@ -5,12 +5,15 @@ play = "yes"
 name = input ("Hello, what is your name? \n")
 print("Hello",name,"welcome to my quiz")
 print("My name is Tristram")
-QUESTION_FORMAT ="{}\nA.{}\nB.{}\nC.{}\nD.{}\n"
+
 
 
 #asking  question and giving options
+QUESTION_FORMAT ="{}\nA.{}\nB.{}\nC.{}\nD.{}\n"
+
 while play == "yes":
     score =0
+print("First Question")
 question = "1+1"
 a = "2"
 b = "3"
