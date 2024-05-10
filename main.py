@@ -11,8 +11,7 @@ print("My name is Tristram")
 #asking  question and giving options
 QUESTION_FORMAT ="{}\nA.{}\nB.{}\nC.{}\nD.{}\n"
 
-while play == "yes":
-    score =0
+
 print("First Question")
 question = "1+1"
 a = "2"
