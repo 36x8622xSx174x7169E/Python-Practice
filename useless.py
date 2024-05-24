@@ -1,5 +1,5 @@
 play = "yes"
-while play == "yes" or "y":
+while play == "yes" or play == "y":
     name =input("Hello what is your name?\n")
     print("Nice to meet you",name,"Welcome do The Number guessing game!")
     print("My Name is Tristram")
